@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EAB27761F46A7D300D011C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB27751F46A7D300D011C4 /* AppDelegate.swift */; };
+		3EAB27781F46A7D300D011C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB27771F46A7D300D011C4 /* ViewController.swift */; };
+		3EAB277B1F46A7D300D011C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB27791F46A7D300D011C4 /* Main.storyboard */; };
+		3EAB277D1F46A7D300D011C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB277C1F46A7D300D011C4 /* Assets.xcassets */; };
+		3EAB27801F46A7D300D011C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB277E1F46A7D300D011C4 /* LaunchScreen.storyboard */; };
+		3EAB278B1F46A7D300D011C4 /* logoFontGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB278A1F46A7D300D011C4 /* logoFontGameTests.swift */; };
+		3EAB27961F46A7D300D011C4 /* logoFontGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB27951F46A7D300D011C4 /* logoFontGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EAB27871F46A7D300D011C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EAB276A1F46A7D300D011C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EAB27711F46A7D300D011C4;
+			remoteInfo = logoFontGame;
+		};
+		3EAB27921F46A7D300D011C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EAB276A1F46A7D300D011C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EAB27711F46A7D300D011C4;
+			remoteInfo = logoFontGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EAB27721F46A7D300D011C4 /* logoFontGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = logoFontGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAB27751F46A7D300D011C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EAB27771F46A7D300D011C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EAB277A1F46A7D300D011C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EAB277C1F46A7D300D011C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EAB277F1F46A7D300D011C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EAB27811F46A7D300D011C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EAB27861F46A7D300D011C4 /* logoFontGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = logoFontGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAB278A1F46A7D300D011C4 /* logoFontGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoFontGameTests.swift; sourceTree = "<group>"; };
+		3EAB278C1F46A7D300D011C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EAB27911F46A7D300D011C4 /* logoFontGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = logoFontGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAB27951F46A7D300D011C4 /* logoFontGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoFontGameUITests.swift; sourceTree = "<group>"; };
+		3EAB27971F46A7D300D011C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EAB276F1F46A7D300D011C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAB27831F46A7D300D011C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAB278E1F46A7D300D011C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EAB27691F46A7D300D011C4 = {
+			isa = PBXGroup;
+			children = (
+				3EAB27741F46A7D300D011C4 /* logoFontGame */,
+				3EAB27891F46A7D300D011C4 /* logoFontGameTests */,
+				3EAB27941F46A7D300D011C4 /* logoFontGameUITests */,
+				3EAB27731F46A7D300D011C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EAB27731F46A7D300D011C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EAB27721F46A7D300D011C4 /* logoFontGame.app */,
+				3EAB27861F46A7D300D011C4 /* logoFontGameTests.xctest */,
+				3EAB27911F46A7D300D011C4 /* logoFontGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EAB27741F46A7D300D011C4 /* logoFontGame */ = {
+			isa = PBXGroup;
+			children = (
+				3EAB27751F46A7D300D011C4 /* AppDelegate.swift */,
+				3EAB27771F46A7D300D011C4 /* ViewController.swift */,
+				3EAB27791F46A7D300D011C4 /* Main.storyboard */,
+				3EAB277C1F46A7D300D011C4 /* Assets.xcassets */,
+				3EAB277E1F46A7D300D011C4 /* LaunchScreen.storyboard */,
+				3EAB27811F46A7D300D011C4 /* Info.plist */,
+			);
+			path = logoFontGame;
+			sourceTree = "<group>";
+		};
+		3EAB27891F46A7D300D011C4 /* logoFontGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EAB278A1F46A7D300D011C4 /* logoFontGameTests.swift */,
+				3EAB278C1F46A7D300D011C4 /* Info.plist */,
+			);
+			path = logoFontGameTests;
+			sourceTree = "<group>";
+		};
+		3EAB27941F46A7D300D011C4 /* logoFontGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EAB27951F46A7D300D011C4 /* logoFontGameUITests.swift */,
+				3EAB27971F46A7D300D011C4 /* Info.plist */,
+			);
+			path = logoFontGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EAB27711F46A7D300D011C4 /* logoFontGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EAB279A1F46A7D400D011C4 /* Build configuration list for PBXNativeTarget "logoFontGame" */;
+			buildPhases = (
+				3EAB276E1F46A7D300D011C4 /* Sources */,
+				3EAB276F1F46A7D300D011C4 /* Frameworks */,
+				3EAB27701F46A7D300D011C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = logoFontGame;
+			productName = logoFontGame;
+			productReference = 3EAB27721F46A7D300D011C4 /* logoFontGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EAB27851F46A7D300D011C4 /* logoFontGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EAB279D1F46A7D400D011C4 /* Build configuration list for PBXNativeTarget "logoFontGameTests" */;
+			buildPhases = (
+				3EAB27821F46A7D300D011C4 /* Sources */,
+				3EAB27831F46A7D300D011C4 /* Frameworks */,
+				3EAB27841F46A7D300D011C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EAB27881F46A7D300D011C4 /* PBXTargetDependency */,
+			);
+			name = logoFontGameTests;
+			productName = logoFontGameTests;
+			productReference = 3EAB27861F46A7D300D011C4 /* logoFontGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EAB27901F46A7D300D011C4 /* logoFontGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EAB27A01F46A7D400D011C4 /* Build configuration list for PBXNativeTarget "logoFontGameUITests" */;
+			buildPhases = (
+				3EAB278D1F46A7D300D011C4 /* Sources */,
+				3EAB278E1F46A7D300D011C4 /* Frameworks */,
+				3EAB278F1F46A7D300D011C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EAB27931F46A7D300D011C4 /* PBXTargetDependency */,
+			);
+			name = logoFontGameUITests;
+			productName = logoFontGameUITests;
+			productReference = 3EAB27911F46A7D300D011C4 /* logoFontGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EAB276A1F46A7D300D011C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Eriri Matsui";
+				TargetAttributes = {
+					3EAB27711F46A7D300D011C4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					3EAB27851F46A7D300D011C4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EAB27711F46A7D300D011C4;
+					};
+					3EAB27901F46A7D300D011C4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EAB27711F46A7D300D011C4;
+					};
+				};
+			};
+			buildConfigurationList = 3EAB276D1F46A7D300D011C4 /* Build configuration list for PBXProject "logoFontGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EAB27691F46A7D300D011C4;
+			productRefGroup = 3EAB27731F46A7D300D011C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EAB27711F46A7D300D011C4 /* logoFontGame */,
+				3EAB27851F46A7D300D011C4 /* logoFontGameTests */,
+				3EAB27901F46A7D300D011C4 /* logoFontGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EAB27701F46A7D300D011C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAB27801F46A7D300D011C4 /* LaunchScreen.storyboard in Resources */,
+				3EAB277D1F46A7D300D011C4 /* Assets.xcassets in Resources */,
+				3EAB277B1F46A7D300D011C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAB27841F46A7D300D011C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAB278F1F46A7D300D011C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EAB276E1F46A7D300D011C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAB27781F46A7D300D011C4 /* ViewController.swift in Sources */,
+				3EAB27761F46A7D300D011C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAB27821F46A7D300D011C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAB278B1F46A7D300D011C4 /* logoFontGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAB278D1F46A7D300D011C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAB27961F46A7D300D011C4 /* logoFontGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EAB27881F46A7D300D011C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EAB27711F46A7D300D011C4 /* logoFontGame */;
+			targetProxy = 3EAB27871F46A7D300D011C4 /* PBXContainerItemProxy */;
+		};
+		3EAB27931F46A7D300D011C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EAB27711F46A7D300D011C4 /* logoFontGame */;
+			targetProxy = 3EAB27921F46A7D300D011C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EAB27791F46A7D300D011C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EAB277A1F46A7D300D011C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EAB277E1F46A7D300D011C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EAB277F1F46A7D300D011C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EAB27981F46A7D400D011C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EAB27991F46A7D400D011C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EAB279B1F46A7D400D011C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = logoFontGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = logoFontGame.logoFontGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3EAB279C1F46A7D400D011C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = logoFontGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = logoFontGame.logoFontGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3EAB279E1F46A7D400D011C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = logoFontGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = logoFontGame.logoFontGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/logoFontGame.app/logoFontGame";
+			};
+			name = Debug;
+		};
+		3EAB279F1F46A7D400D011C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = logoFontGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = logoFontGame.logoFontGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/logoFontGame.app/logoFontGame";
+			};
+			name = Release;
+		};
+		3EAB27A11F46A7D400D011C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = logoFontGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = logoFontGame.logoFontGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = logoFontGame;
+			};
+			name = Debug;
+		};
+		3EAB27A21F46A7D400D011C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = logoFontGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = logoFontGame.logoFontGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = logoFontGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EAB276D1F46A7D300D011C4 /* Build configuration list for PBXProject "logoFontGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EAB27981F46A7D400D011C4 /* Debug */,
+				3EAB27991F46A7D400D011C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EAB279A1F46A7D400D011C4 /* Build configuration list for PBXNativeTarget "logoFontGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EAB279B1F46A7D400D011C4 /* Debug */,
+				3EAB279C1F46A7D400D011C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EAB279D1F46A7D400D011C4 /* Build configuration list for PBXNativeTarget "logoFontGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EAB279E1F46A7D400D011C4 /* Debug */,
+				3EAB279F1F46A7D400D011C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EAB27A01F46A7D400D011C4 /* Build configuration list for PBXNativeTarget "logoFontGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EAB27A11F46A7D400D011C4 /* Debug */,
+				3EAB27A21F46A7D400D011C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EAB276A1F46A7D300D011C4 /* Project object */;
+}
