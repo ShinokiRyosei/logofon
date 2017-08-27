@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var quizArray = [Any]()
+    var quizArray = [[Any]]()
     var correctAnswer: Int = 0
     var count: Int = 0
     var timer: Timer = Timer()
@@ -47,7 +47,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         //一時的にクイズを収納しておく配列
-        var tmpArray = [Any]()
+        var tmpArray = [[Any]]()
+        var shuffledTmpArray: [[Any]] = []
         
         tmpArray.append(["NIKE","N","NikeBureau","NIKE","Varsity","LOWSON","TSBlock-Bold","IKEA","UbuntuTitling-Bold","LINE",1])
         tmpArray.append(["LOWSON","L","Canon","Canon","Varsity","LOWSON","TSBlock-Bold","IKEA","Walt Disney Script v4.1","Disney",2])
@@ -67,9 +68,42 @@ class ViewController: UIViewController {
         //問題をシャッフルしてquizArrayに格納する
         while(tmpArray.count > 0) {
             let index = Int(arc4random()) % tmpArray.count
-            quizArray.append(tmpArray[index])
+            shuffledTmpArray.append(tmpArray[index])
             tmpArray.remove(at: index)
         }
+
+        for item in shuffledTmpArray {
+
+            var tmpFontItem: [Any] = [item[2], item[4], item[6], item[8]] //
+            var tmpAnswerItem: [Any] = [item[3], item[5], item[7], item[9]]
+            var shuffledQuestionAray: [Any] = []
+            var answerNumber: Int = 0
+            var tmpElement: [Any] = [item[0]]
+
+            while tmpFontItem.count > 0 {
+
+                let index: Int = Int(arc4random_uniform(UInt32(tmpFontItem.count)))
+                shuffledQuestionAray.append(tmpFontItem[index])
+                shuffledQuestionAray.append(tmpAnswerItem[index])
+
+                if item[10] as! Int == index {
+
+                    answerNumber = index
+                }
+
+                tmpFontItem.remove(at: index)
+                tmpAnswerItem.remove(at: index)
+            }
+
+            tmpElement = tmpElement + shuffledQuestionAray
+            tmpElement.append(answerNumber)
+
+            quizArray.append(tmpElement)
+        }
+
+
+
+
         choiceQuiz()
         
         if !timer.isValid{
@@ -87,7 +121,7 @@ class ViewController: UIViewController {
     
     func choiceQuiz() {
         //一時的にクイズを取り出す配列
-        let tmpArray = quizArray[0] as! [Any]
+        let tmpArray = quizArray[0]
         
         quizLabel.text = tmpArray[0] as? String
         choiceLabel1.text = tmpArray[1] as? String
@@ -114,7 +148,7 @@ class ViewController: UIViewController {
         answerLabel4.isHidden = false
         
         if answerLabel.text != "" { return }
-        let tmpArray = quizArray[0] as! [Any]
+        let tmpArray = quizArray[0]
         if tmpArray[10] as! Int == sender.tag {
             correctAnswer = correctAnswer + 1
             answerLabel.textColor = UIColor.red
