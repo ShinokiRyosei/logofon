@@ -41,5 +41,19 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>TS Block Bold.ttf</string>
+		<string>CANON.ttf</string>
+		<string>wds011402.ttf</string>
+		<string>varsity_regular.ttf</string>
+		<string>Legothick.ttf</string>
+		<string>UbuntuTitling-Bold.ttf</string>
+		<string>Billabong.ttf</string>
+		<string>Nike Bureau.otf</string>
+		<string>Alternate-Gothic-No2-BT.ttf</string>
+		<string>Coca Cola ii.ttf</string>
+		<string>Lobster 1.4.otf</string>
+	</array>
 </dict>
 </plist>
