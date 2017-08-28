@@ -72,37 +72,26 @@ class ViewController: UIViewController {
             tmpArray.remove(at: index)
         }
 
+        // 問題ごとでさらに中身を入れ替えるためにfor文で1問ずつアクセス
         for item in shuffledTmpArray {
 
-            var tmpFontItem: [Any] = [item[2], item[4], item[6], item[8]] //
-            var tmpAnswerItem: [Any] = [item[3], item[5], item[7], item[9]]
-            var shuffledQuestionAray: [Any] = []
-            var answerNumber: Int = 0
-            var tmpElement: [Any] = [item[0]]
+            var tmpFontItem: [Any] = [item[2], item[4], item[6], item[8]] // フォント名だけ取り出す
+            var tmpAnswerItem: [Any] = [item[3], item[5], item[7], item[9]] // 企業名だけを取り出す。tmpFontItemとtmpAnswerItemは必ずセットで操作する
+            var tmpElement: [Any] = [item[0], item[1]] // 0番と1番はそのままtmpElementに代入
 
-            while tmpFontItem.count > 0 {
+            let newIndexs: [Int] = [1, 2, 3, 4].shuffled()
 
-                let index: Int = Int(arc4random_uniform(UInt32(tmpFontItem.count)))
-                shuffledQuestionAray.append(tmpFontItem[index])
-                shuffledQuestionAray.append(tmpAnswerItem[index])
+            let answerIndex: Int = newIndexs.index(of: item[10] as! Int)! // ランダムに問題を入れ替えたときに、新しい答えの番号を保存しておくための変数
 
-                if item[10] as! Int == index {
+            for index in newIndexs {
 
-                    answerNumber = index
-                }
-
-                tmpFontItem.remove(at: index)
-                tmpAnswerItem.remove(at: index)
+                tmpElement.append(tmpFontItem[index])
+                tmpElement.append(tmpAnswerItem[index])
             }
-
-            tmpElement = tmpElement + shuffledQuestionAray
-            tmpElement.append(answerNumber)
+            tmpElement.append(answerIndex)
 
             quizArray.append(tmpElement)
         }
-
-
-
 
         choiceQuiz()
         
@@ -210,6 +199,22 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+}
+
+extension Array {
+
+    func shuffled() -> [Element] {
+        var results = [Element]()
+        var indexes = (0 ..< count).map { $0 }
+        while indexes.count > 0 {
+            let indexOfIndexes = Int(arc4random_uniform(UInt32(indexes.count)))
+            let index = indexes[indexOfIndexes]
+            results.append(self[index])
+            indexes.remove(at: indexOfIndexes)
+        }
+        return results
+    }
     
 }
 
