@@ -85,8 +85,8 @@ class ViewController: UIViewController {
 
             for index in newIndexs {
 
-                tmpElement.append(tmpFontItem[index])
-                tmpElement.append(tmpAnswerItem[index])
+                tmpElement.append(tmpFontItem[index - 1])
+                tmpElement.append(tmpAnswerItem[index - 1])
             }
             tmpElement.append(answerIndex)
 
